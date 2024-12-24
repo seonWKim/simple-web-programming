@@ -1,0 +1,75 @@
+.feedback-carousel {
+    overflow: hidden; /* Ensure items outside the container aren't visible */
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Add spacing between the comments */
+    max-height: 240px; /* Fix max height to ensure smoother carousel */
+    transition: transform 0.8s ease-in-out; /* Smooth transition for the carousel */
+}
+
+/* Each feedback item animation */
+.feedback-item {
+    display: flex;
+    gap: 16px;
+    animation: slideIn 0.8s ease-in-out forwards; /* Slide-in animation */
+    transform-origin: top;
+    transition: transform 0.8s ease-in-out; /* Smooth transition for the items */
+}
+
+.avatar-container {
+    align-items: flex-start;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.comment-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 4px;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #888;
+    margin-top: 8px;
+}
+
+/* Slide-in animation for feedback items */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px); /* Start above the container */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Slide to its final position */
+    }
+}
+
+/* Slide-out animation for feedback items */
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0); /* Start in its final position */
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30px); /* Move down and fade out */
+    }
+}
