@@ -35,7 +35,7 @@ export default function Home(): JSX.Element {
     return (
         <Layout
             title={`Welcome to ${siteConfig.title}`}
-            description="Join the most enteraining toastmaster club!! HDTM 🎉">
+            description="Set your description!!">
             <HomepageHeader/>
             <main>
                 <HomepageFeatures/>
