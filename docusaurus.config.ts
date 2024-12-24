@@ -5,19 +5,20 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'HDTM',
-    tagline: 'Where leaders are made',
+    // TODO: fix title, tagline, favicon
+    title: 'YOUR TITLE',
+    tagline: 'YOUR TAGLINE',
     favicon: 'img/favicon.ico',
 
-    // TODO( github username e.g. seonWKim )
-    url: 'https://{{ YOUR GITHUB USERNAME }}.github.io',
+    // TODO( github project link )
+    url: 'https://seonWKim.github.io',
     // TODO (github project name e.g. /simple-web-programming/ )
-    baseUrl: '{{ YOUR PROJECT NAME }} ',
+    baseUrl: '/simple-web-programming/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: '{{ YOUR GITHUB USERNAME }} ', // TODO( github username e.g. seonWKim )
-    projectName: '{{ YOUR GITHUB PROJECT NAME }} ', // TODO( github repository name e.g. simple-web-programming )
+    organizationName: 'seonWKim', // TODO( github username e.g. seonWKim )
+    projectName: 'simple-web-programming', // TODO( github repository name e.g. simple-web-programming )
     deploymentBranch: "gh-pages",
 
     onBrokenLinks: 'throw',

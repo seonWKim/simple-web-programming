@@ -8,31 +8,33 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
+// TODO
+// Free illustrations: https://undraw.co/illustrations
 const FeatureList: FeatureItem[] = [
     {
-        title: 'Where Leaders Are Made',
+        title: 'Item 1',
         Svg: require('@site/static/img/leaders.svg').default,
         description: (
             <>
-                Join us to develop your leadership skills through various roles and responsibilities.
+                Description 1
             </>
         ),
     },
     {
-        title: 'Lots of Speech Opportunities',
+        title: 'Item 2',
         Svg: require('@site/static/img/speech.svg').default,
         description: (
             <>
-                Enhance your public speaking skills with numerous opportunities to speak in front of audiences.
+              Description 2
             </>
         ),
     },
     {
-        title: 'Gatherings with Great People',
+        title: 'Item 3',
         Svg: require('@site/static/img/gatherings.svg').default,
         description: (
             <>
-                Network and connect with like-minded individuals in a supportive environment.
+              Description 3
             </>
         ),
     },
