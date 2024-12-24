@@ -9,16 +9,15 @@ const config: Config = {
     tagline: 'Where leaders are made',
     favicon: 'img/favicon.ico',
 
-    // Set the production url of your site here
-    url: 'https://seonwkim.github.io',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/hdtm-document/',
+    // TODO( github username e.g. seonWKim )
+    url: 'https://{{ YOUR GITHUB USERNAME }}.github.io',
+    // TODO (github project name e.g. /simple-web-programming/ )
+    baseUrl: '{{ YOUR PROJECT NAME }} ',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'seonWKim', // Usually your GitHub org/user name.
-    projectName: 'hdtm-document', // Usually your repo name.
+    organizationName: '{{ YOUR GITHUB USERNAME }} ', // TODO( github username e.g. seonWKim )
+    projectName: '{{ YOUR GITHUB PROJECT NAME }} ', // TODO( github repository name e.g. simple-web-programming )
     deploymentBranch: "gh-pages",
 
     onBrokenLinks: 'throw',
@@ -66,6 +65,7 @@ const config: Config = {
         image: 'img/toastmaster.jpg',
         navbar: {
             title: 'HDTM',
+            // TODO( navigation bar logo image url)
             logo: {
                 alt: 'HDTM Logo',
                 src: 'img/logo.svg',
@@ -97,6 +97,7 @@ const config: Config = {
                     ],
                 },
                 {
+                    // TODO( footer components )
                     title: 'Community',
                     items: [
                         {
