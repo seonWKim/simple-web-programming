@@ -1,8 +1,0 @@
-{
-  "label": "Second-Page",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Second page description."
-  }
-}
